@@ -239,6 +239,7 @@ const DVKForm: FunctionComponent<DVKFormProps> = ({
           required={ required }
           autoFocus={ autoFocus }
           disabled={ disabled }
+          multiple={ multiple }
 
           { ...errorProps }
         />;
